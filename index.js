@@ -38,6 +38,8 @@ const nestid = "5";
 const egg = "15";
 const loc = "1";
 
+// edit plta pltc domain lu
+
 app.post("/create", async (req, res) => {
   const { username, email, ram, disk, cpu } = req.body;
   const password = username + Math.floor(Math.random() * 10000);
